@@ -2,6 +2,14 @@ body {
     padding-left: 15px;
 }
 
+.container{
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+  background-color: #F5F5DC
+}
+
+
 h1 a {
     color: #FCA205;
     font-family: 'Lobster';
@@ -36,7 +44,7 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
-    width: 100%;
+    width: 80%;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
