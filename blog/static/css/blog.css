@@ -1,5 +1,6 @@
 body {
-    padding-left: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -16,7 +17,7 @@ h1 a {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #3333ff;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -27,16 +28,13 @@ h1 a {
     text-decoration: none;
 }
 
-.content {
-    margin-left: 40px;
-}
-
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
 .date {
     color: #828282;
+    font-size: 12px;
 }
 
 .save {
@@ -52,6 +50,8 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    padding-top: 15px;
+    text-decoration: none;
 }
 
 .post {
@@ -60,4 +60,38 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+
+@media(max-width:800px){
+  .page-header {
+      background-color: #3333ff;
+      margin-top: 0;
+      padding: 5px;
+      padding-right: 5px;
+  }
+
+  .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+      color: #ffffff;
+      font-size: 20pt;
+      text-decoration: none;
+  }
+
+.post h1{
+  font-size: 25px;
+
+}
+
+.container{
+  width: 90%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 15pt;
+    padding-top: 20px;
+}
+
+
 }
